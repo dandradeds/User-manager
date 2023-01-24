@@ -10,7 +10,7 @@ class User {
         this._password = password;
         this._photo = photo;
         this._admin = admin;
-        this._register = new Date().toLocaleDateString('pt-BR');
+        this._register = new Date()
 
     }
 
