@@ -10,7 +10,7 @@ class User {
         this._password = password;
         this._photo = photo;
         this._admin = admin;
-        this._register = new Date()
+        this._register = new Date();
 
     }
 
@@ -41,7 +41,6 @@ class User {
     get photo() {
         return this._photo;
     }
-
 
     get admin() {
         return this._admin;
